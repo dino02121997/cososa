@@ -1,0 +1,202 @@
+@media only screen and (max-width: 480px){
+    .hex svg,.head-about{
+        width: 100%;
+        
+    }
+    .hex{
+       
+        top: 0;
+        left:0;
+        right: 0;
+        bottom:0;
+        
+    }
+    .label-new{
+        top: 2%;
+        left:0;
+        right:0;
+        bottom:0;
+        width:100%;
+    }
+    .name-company{
+           display:none;
+
+    }
+    .space-125{ 
+        margin-top:25px;
+    }
+    .navbar-brand img{
+        width:50px;
+    }
+    .item-testimonials,#home img{
+        width: 100% !important;
+    }
+    .shapes{
+        display:none;
+    }
+    .space-top{
+        margin-top:100px;
+    }
+    .state-heading,.state-heading-detail{
+        text-align: center!important;
+    }
+    .padding-bottom-40{
+        padding-bottom: 20px;
+    }
+    #qualities .swiper-pagination {
+        left:40%;
+        bottom:0;
+    }
+    #news .button-hot{
+        display:none;
+    }
+  
+    /* .row{ 
+   
+    margin :0px 0px;
+    }
+    .navbar-header{
+        width: 100%;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+
+    }
+    .container-fluid{
+        padding-right:0px; 
+        padding-left: 0px;
+    } */
+    .navbar-inverse .navbar-nav>.active>a:after{
+        content: '';
+        left: -60%;
+        top: 12%;
+        width: 40%;
+        margin: 0 auto;
+        position: absolute;
+        height: 30px;
+        border-radius: 20px;
+        background-color:#fff!important;
+        z-index: -1;
+        transition: all .3s ease;
+    }
+    #qualities .swiper-container{
+        padding-bottom: 20px;
+    }
+   
+}
+/* ipad */
+@media only screen and (min-width : 768px) and (max-width : 1020px){
+    .hex svg,.head-about{
+        width: 100%;
+        
+    }
+    .hex{
+       
+        top: 0;
+        left:0;
+        right: 0;
+        bottom:0;
+        
+    }
+    .label-new{
+        top: 1%;
+        left:0;
+        right:0;
+        bottom:0;
+        width:100%;
+    }
+    #home img{
+        width: 100% !important;
+    }
+    .shapes{
+        display:none;
+    }
+    .name-company{
+        display:none;
+
+    }
+    .space-125{ 
+        margin-top:25px;
+    }
+    #qualities .swiper-container{
+        padding-bottom: 20px;
+    }
+    #qualities .swiper-pagination{
+        left: -10%;
+    }
+    .list-direction{
+        padding: 50px 0px;
+    }
+    .ipad-col-service{
+        width: 25%;
+        position: relative;
+        float: left;
+        height: 20px;
+    }
+    .space-top{
+        margin-top:150px;
+    }
+    #nar-contact{
+        display:none;
+    }
+    .navbar-header{
+        display:none;
+    }
+    .state-heading,.state-heading-detail{
+        text-align: center!important;
+        margin-top:50px;
+    }
+    
+}
+
+/* ipad pro */
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .hex svg,.head-about{
+        width: 100%;
+        
+    }
+    .hex{
+       
+        top: 0;
+        left:0;
+        right: 0;
+        bottom:0;
+        
+    }
+    .label-new{
+        top: 2%;
+        left:0;
+        right:0;
+        bottom:0;
+        width:100%;
+    }
+    #home img{
+        width: 100% !important;
+    }
+    .abstract-svg-3{
+        left:20%;
+    }
+   .name-company{
+    padding: 30% 30px;
+   }
+    .navbar-header{
+        display:none;
+    }
+    @keyframes animationShapeTwo{
+        0%   { transform: translate(0, 0); }
+        25%  { transform: translate(0,800px); } 
+        50% { transform: translate(-115px,800px);}
+        75%{transform: translate(-115px,0);}
+        100% { transform: translate(0, 0); }
+    } 
+    @keyframes animationShapeOne{
+        0%   { transform: translate(0, 0); }
+        25%  { transform: translate(0,300px); } 
+        50% { transform: translate(-370px,0px);}
+        75%{transform: translate(100px,200px);}
+        100% { transform: translate(0, 0); }
+    }
+    .space-125{ 
+        margin-top:25px;
+    }
+    
+}
